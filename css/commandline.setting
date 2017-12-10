@@ -1,0 +1,1 @@
+screen -AmdS GS[:ID:] ./srcds_run -game cstrike -console -secure -tickrate 100 +fps_max 600 -maxplayers 12 -ip [:IP:] -port 27015 +map de_dust2 -nohltv -tvdisable

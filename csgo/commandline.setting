@@ -1,0 +1,1 @@
+screen -AmdS GS[:ID:] ./srcds_run -game csgo -console -condebug -tickrate 128 -usercon -secure -nowatchdog -maxplayers_override 12 +ip [:IP:] +sv_hibernate_when_empty 0 +hostport 27015 +game_type 0 +game_mode 1 +tv_port 27016 +tv_enable 1
